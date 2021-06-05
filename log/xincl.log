@@ -1,0 +1,702 @@
+[DEBUG][21-04-05][druid.sql.Connection]{conn-10001,procId-162} connected
+[DEBUG][21-04-05][druid.sql.Connection]{conn-10002,procId-163} connected
+[DEBUG][21-04-05][druid.sql.Connection]{conn-10003,procId-164} connected
+[DEBUG][21-04-05][druid.sql.Connection]{conn-10004,procId-165} connected
+[DEBUG][21-04-05][druid.sql.Connection]{conn-10005,procId-166} connected
+[DEBUG][21-04-05][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-05][druid.sql.Statement]{conn-10005, stmt-20000} created
+[DEBUG][21-04-05][druid.sql.Statement]{conn-10005, stmt-20000, rs-50000} query executed. 100.729167 millis. select * from books
+[DEBUG][21-04-05][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} open
+[DEBUG][21-04-05][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-05][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-05][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-05][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-05][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-05][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} closed
+[DEBUG][21-04-05][druid.sql.Statement]{conn-10005, stmt-20000} closed
+[DEBUG][21-04-05][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-167} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-168} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-169} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-170} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-171} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, stmt-20000} created
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, stmt-20000, rs-50000} query executed. 66.577542 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, stmt-20000} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} created. select * from books
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} Types : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 1.430042 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20001, rs-50001} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-172} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-173} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-174} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-175} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-176} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.653167 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-177} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-178} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-179} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-180} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-181} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 4.3685 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-182} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-183} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-184} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-185} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-186} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.198583 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-187} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-188} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-189} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-190} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-191} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [111]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [INTEGER]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 4.955 millis. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-192} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-193} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-194} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-195} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-196} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [111]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [INTEGER]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.740375 millis. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006,procId-197} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} created. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [6]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [INTEGER]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 1.798125 millis. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [111]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [INTEGER]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 1.564666 millis. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [6]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [INTEGER]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 0.974125 millis. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-200} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-201} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-202} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-203} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-204} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [6]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [INTEGER]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 4.966625 millis. select * from books where bookID=?
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} created. insert into books(bookID,bookName,bookCounts,detail) values(?,?,?,?)
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : [8, java, 999, 面向发家致富编程]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} Types : [INTEGER, VARCHAR, INTEGER, VARCHAR]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 4.734084 millis. insert into books(bookID,bookName,bookCounts,detail) values(?,?,?,?)
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20002} created. delete from books where bookID=?
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20002} Parameters : [8]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20002} Types : [INTEGER]
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20002} executed. 2.180875 millis. delete from books where bookID=?
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20002} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006,procId-205} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20003} created. select * from books
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20003} Parameters : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20003} Types : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20003} executed. 2.031042 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20003, rs-50001} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20003, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20003, rs-50001} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20003, rs-50001} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20003, rs-50001} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20003, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10006, pstmt-20003, rs-50001} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20003} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10006, pstmt-20003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10006} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-206} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-207} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-208} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-209} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-210} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 3.78025 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10001,procId-211} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10002,procId-212} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10003,procId-213} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10004,procId-214} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005,procId-215} connected
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 3.826459 millis. select * from books
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-04-06][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-04-06][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-04-06][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-04-07][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-04-07][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-04-07][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-04-07][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-04-07][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10001,procId-261} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10002,procId-262} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10003,procId-263} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10004,procId-264} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005,procId-265} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 12.679792 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.394875 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10001,procId-266} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10002,procId-267} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10003,procId-268} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10004,procId-269} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005,procId-270} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 8.2115 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 2.231209 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.124041 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10006,procId-271} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10006, pstmt-20001} created. select * from books
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10006, pstmt-20001} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 5.489625 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10006} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007,procId-272} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} created. select * from books
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} executed. 10.217167 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} executed. 2.391458 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50005} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50005} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50005} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50005} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50005} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50005} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50005} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} executed. 2.124458 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50006} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50006} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50006} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50006} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50006} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50006} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50006} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10007, pstmt-20002} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10007} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10008,procId-273} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10008} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} created. select * from books
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} executed. 3.549833 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50007} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10008} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10008} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} executed. 3.474833 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10008, pstmt-20003, rs-50008} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10008, pstmt-20003} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10008} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10001,procId-4} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10002,procId-5} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10003,procId-6} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10004,procId-7} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005,procId-8} connected
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 4.776583 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 2.266375 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.792458 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.912083 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.042125 millis. select * from books
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} open
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-09][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-09][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-05-09][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001,procId-53} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002,procId-54} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003,procId-55} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004,procId-56} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005,procId-57} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 12.7525 millis. select * from books
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001,procId-58} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002,procId-59} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003,procId-60} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004,procId-61} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005,procId-62} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 3.78025 millis. select * from books
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.855583 millis. select * from books
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001,procId-63} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002,procId-64} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003,procId-65} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004,procId-66} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005,procId-67} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 3.749791 millis. select * from books
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10006,procId-68} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} created. select * from books
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} Types : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 2.092 millis. select * from books
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} Types : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 1.236084 millis. select * from books
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001,procId-69} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002,procId-70} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003,procId-71} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004,procId-72} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005,procId-73} connected
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from books
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 15.092417 millis. select * from books
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [bookID, bookName, bookCounts, detail]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, Java, 1, 从入门到放弃]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, MySQL, 109, 从删库到跑路]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, Linux, 190, 从进门到进牢]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [6, 22ava, 111, 书籍详细]
+[DEBUG][21-05-25][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10001} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10002} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10003} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10004} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10005} closed
+[DEBUG][21-05-25][druid.sql.Statement]{conn-10006, pstmt-20001} closed
+[DEBUG][21-05-25][druid.sql.Connection]{conn-10006} closed
