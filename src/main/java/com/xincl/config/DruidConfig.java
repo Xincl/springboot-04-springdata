@@ -26,21 +26,22 @@ public class DruidConfig {
      */
     @ConfigurationProperties("spring.datasource")
     @Bean
-    public DataSource DruidDataSource(){
+    public DataSource DruidDataSource() {
         return new DruidDataSource();
     }
+
     //后台监控
     @Bean
-    public ServletRegistrationBean startViewServlet(){
+    public ServletRegistrationBean startViewServlet() {
         ServletRegistrationBean<StatViewServlet> bean = new ServletRegistrationBean<>(new StatViewServlet(), "/druid/*");
         //后台需要有人登录，账号密码设置
-        Map<String,String> initParameters = new HashMap<>();
+        Map<String, String> initParameters = new HashMap<>();
         //增加配置
-        initParameters.put("loginUsername","admin");
-        initParameters.put("loginPassword","123");
+        initParameters.put("loginUsername", "admin");
+        initParameters.put("loginPassword", "123");
 
         //允许谁可以访问
-        initParameters.put("allow","");//若为空，则代表所有人都可以登录
+        initParameters.put("allow", "");//若为空，则代表所有人都可以登录
 
         //
 
@@ -51,12 +52,12 @@ public class DruidConfig {
 
     //定义过滤器
     @Bean
-    public FilterRegistrationBean webStatFilter(){
+    public FilterRegistrationBean webStatFilter() {
         FilterRegistrationBean<Filter> bean = new FilterRegistrationBean<>();
         bean.setFilter(new WebStatFilter());
-        Map<String,String> initParameters = new HashMap<>();
+        Map<String, String> initParameters = new HashMap<>();
         //这些东西不进行统计
-        initParameters.put("exclusions","*.js,*.css,/druid/*");
+        initParameters.put("exclusions", "*.js,*.css,/druid/*");
         bean.setInitParameters(initParameters);
 
         return bean;

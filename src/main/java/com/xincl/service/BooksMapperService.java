@@ -18,5 +18,7 @@ public interface BooksMapperService {
 
     public int update(Books books);
 
-    public int delete(@Param("bookID")int id);
+    public int delete(@Param("bookID") int id);
+
+    int inserts(@Param("id") String id);
 }

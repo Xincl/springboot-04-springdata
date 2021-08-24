@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 @Repository
@@ -20,7 +21,9 @@ public interface BooksMapper {
 
     public int update(Books books);
 
-    public int delete(@Param("bookID")int id);
+    public int delete(@Param("bookID") int id);
+
+    int inserts(@Param("id") String id);
 
 
 }

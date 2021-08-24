@@ -10,11 +10,11 @@
     <select id="getBooksById" parameterType="int" resultType="books">
         select * from books where bookID=#{bookID}
     </select>
-    
+
     <insert id="insert" parameterType="books">
         insert into books(bookID,bookName,bookCounts,detail) values(#{bookID},#{bookName},#{bookCounts},#{detail})
     </insert>
-    
+
     <update id="update" parameterType="books">
         update books set bookName=#{bookName},bookCounts=#{bookCounts} where bookID=#{bookID}
     </update>
@@ -22,4 +22,8 @@
     <delete id="delete" parameterType="int">
         delete from books where bookID=#{bookID}
     </delete>
+
+    <insert id="inserts" parameterType="String">
+        insert into test(id) values(#{id})
+    </insert>
 </mapper>

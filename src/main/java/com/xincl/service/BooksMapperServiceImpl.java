@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class BooksMapperServiceImpl implements BooksMapperService{
+public class BooksMapperServiceImpl implements BooksMapperService {
     @Autowired
     BooksMapper booksMapper;
 
@@ -37,4 +37,11 @@ public class BooksMapperServiceImpl implements BooksMapperService{
     public int delete(int id) {
         return booksMapper.delete(id);
     }
+
+    @Override
+    public int inserts(String id) {
+        return booksMapper.inserts(id);
+    }
+
+
 }
